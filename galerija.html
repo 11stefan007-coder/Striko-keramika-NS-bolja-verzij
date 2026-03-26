@@ -1,0 +1,98 @@
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <title>Naši Radovi</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #eee; }
+        header { background: #2c3e50; color: white; padding: 40px; text-align: center; }
+        nav { background: #34495e; padding: 15px; text-align: center; position: sticky; top: 0; z-index: 1000; }
+        nav a { color: white; text-decoration: none; font-weight: bold; text-transform: uppercase; margin: 0 15px; }
+        nav a:hover { color: #e67e22; }
+        .gallery-title { text-align: center; padding: 40px 20px; background: white; margin: 20px auto; max-width: 1000px; border-radius: 10px; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; padding: 40px; max-width: 1200px; margin: auto; }
+        .project-card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 8px 20px rgba(0,0,0,0.15); transition: 0.3s; }
+        .project-card:hover { transform: translateY(-10px); }
+        .project-card img { width: 100%; height: 250px; object-fit: cover; border-bottom: 5px solid #e67e22; }
+        .project-text { padding: 20px; }
+        .project-text h3 { color: #2c3e50; margin: 0 0 10px 0; }
+        .project-text p { color: #666; font-size: 14px; line-height: 1.5; }
+        footer { background: #2c3e50; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <header><h1>NEKI OD NAŠIH ZAVRŠENIH POSLOVA</h1></header>
+    <nav>
+        <a href="pocetna.html">Početna</a>
+		<a href="usluge.html">Usluge i cijene</a>
+		<a href="kontakt.html">Kontakt</a>
+        <a href="index.html">Odjava</a>
+    </nav>
+
+    <div class="gallery-title">
+        <h2>Pregled završenih objekata</h2>
+        <p>Svaka slika ispod predstavlja stvaran projekat koji smo uspješno priveli kraju. Kvalitet je vidljiv u detaljima i uglovima.</p>
+    </div>
+    
+    <div class="gallery">
+    <a href="kupatilo-detalji.html" style="text-decoration: none; color: inherit;">
+        <div class="project-card">
+            <img src="kupatilo.jpg" alt="Kupatilo">
+            <div class="project-text">
+                <h3>Moderno Kupatilo</h3>
+                <p>Klikni za pregled 10 detaljnih slika.</p>
+            </div>
+        </div>
+    </a>
+
+    <a href="kuhinja-detalji.html" style="text-decoration: none; color: inherit;">
+        <div class="project-card">
+            <img src="kuhinja.jpg" alt="Kuhinja">
+            <div class="project-text">
+                <h3>Kuhinjska Pozadina</h3>
+                <p>Klikni za pregled 10 detaljnih slika.</p>
+            </div>
+        </div>
+    </a>
+	<a href="terasa-detalji.html" style="text-decoration: none; color: inherit;">
+        <div class="project-card">
+            <img src="terasa.png" alt="Kuhinja">
+            <div class="project-text">
+                <h3>Vanjska Terasa</h3>
+                <p>Klikni za pregled 10 detaljnih slika.</p>
+            </div>
+        </div>
+    </a>
+	<a href="dnevni-detalji.html" style="text-decoration: none; color: inherit;">
+        <div class="project-card">
+            <img src="dnevni.jpg" alt="Kuhinja">
+            <div class="project-text">
+                <h3>Imitacija Mermera</h3>
+                <p>Klikni za pregled 10 detaljnih slika.</p>
+            </div>
+        </div>
+    </a>
+	<a href="stepeniste-detalji.html" style="text-decoration: none; color: inherit;">
+        <div class="project-card">
+            <img src="stepeniste.jpg" alt="Kuhinja">
+            <div class="project-text">
+                <h3>Ulazno Stepenište</h3>
+                <p>Klikni za pregled 10 detaljnih slika.</p>
+            </div>
+        </div>
+    </a>
+<a href="bazen-detalji.html" style="text-decoration: none; color: inherit;">
+        <div class="project-card">
+            <img src="bazen.jpg" alt="Kuhinja">
+            <div class="project-text">
+                <h3>Bazenska Zona</h3>
+                <p>Klikni za pregled 10 detaljnih slika.</p>
+            </div>
+        </div>
+    </a>
+    </div>
+
+    <footer>
+        <p>Sve slike su vlasništvo firme "Kovač Group NS" &copy; 2026</p>
+    </footer>
+</body>
+</html>
